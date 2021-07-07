@@ -1,6 +1,9 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 body{
         font-family: 'Poppins', sans-serif;
         margin: 0%;
@@ -40,4 +43,35 @@ body{
     background-image: linear-gradient(blue,red);
     padding: 5px 20px;
     color: white;
+}
+
+.middle{
+    text-align: center;
+    color: grey;
+    padding-left: 25%;
+}
+
+.food-item{
+    width: 25%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 10px 10px 50px black;
+    border-radius: 10px;
+}
+
+.food-item img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+footer{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background: darkslateblue ;
+    text-align: center;
 }
